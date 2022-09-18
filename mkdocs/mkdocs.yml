@@ -1,0 +1,17 @@
+site_name: My Docs
+nav:
+  - Newline Test:
+      - Baseline: "newline-test.md"
+      - Trailing Newlines True: "newline-test-trailing-newlines-true.md"
+      - Trailing Newlines False: "newline-test-trailing-newlines-false.md"
+  - No Newline Test:
+      - Baseline: "no-newline-test.md"
+      - Trailing Newlines True: "no-newline-test-trailing-newlines-true.md"
+      - Trailing Newlines False: "no-newline-test-trailing-newlines-false.md"
+  - Code block test:
+      - Code Block: "code-block.md"
+theme:
+  name: material
+plugins:
+  - include-markdown
+  - search
