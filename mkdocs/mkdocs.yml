@@ -10,8 +10,12 @@ nav:
       - Trailing Newlines False: "no-newline-test-trailing-newlines-false.md"
   - Code block test:
       - Code Block: "code-block.md"
+  - Info test:
+      - Info test: "info-test"
 theme:
   name: material
+markdown_extensions:
+  - admonition
 plugins:
   - include-markdown
   - search
